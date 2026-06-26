@@ -3,8 +3,6 @@ import kagglehub
 # Downloading latest version
 path = kagglehub.dataset_download("anshulm257/rice-disease-dataset")
 
-#print("Access to the dataset:", path)
-
 # Setting sizes
 batch_size = 32
 image_size = (224, 224)
